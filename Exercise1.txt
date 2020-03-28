@@ -1,0 +1,68 @@
+Exercise 1: The below mentioned are the scenario's to test the login feature of Swag Labs application
+
+TC 1:
+Description: Enter username and without password
+Expected Result: Verify that the user message indicating password is required should be displayed.
+Actual Result: Verified that the user message indicating password is required is displayed.
+
+
+TC 2:
+Description: Enter valid user credentials
+Expected Result: Verify that the user should be navigated to the home page.
+Actual Result: Verified that the user is navigated to the home page.
+
+
+TC 3:
+Description: Enter password and without username 
+Expected Result: Verify that the user message indicating username is required should be displayed.
+Actual Result: Verified that the user message indicating username is required is displayed.
+
+TC 4:
+Description: Enter wrong username and password 
+Expected Result: Verify that the user message indicating user credentials are wrong should be displayed.
+Actual Result: Verified that the user message indicating user credentials are wrong is displayed.
+
+TC 5:
+Description: Login not possible with locked user
+Expected Result: Verify that the user message indicating username is locked should be displayed.
+Actual Result: Verified that the user message indicating username is locked is displayed.
+
+TC 6:
+Description: Do not enter username and password
+Expected Result: Verify that the user message indicating username is required should be displayed.
+Actual Result: Verified that the user message indicating username is required is displayed.
+
+TC 7:
+Description: On Logout, Click on back button
+Expected Result: Verify that the user should be redirected to login page.
+Actual: User is directly logged in(Fail)
+
+TC 8 :
+Description: Password masked
+Expected Result: Verify that the password entered should not be visible to the user
+Actual: Verified that the password is masked and not visible to the user
+
+TC 9:
+Description: Save password and clear the browser cookie
+Expected Result: Verify that the user is asked to enter username and password.
+Actual: Verified that Verify that the user is asked to enter username and password.
+
+TC 10:
+Description: User logs in and paste's the URL in another browser
+Expected Result: Verify that the URL should redirect to login page
+Actual: User is directly logged in(Fail)
+
+TC 11:
+Description: Copy and paste of the password 
+Expected Result: Verify that the password should not be allowed to be copied and pasted.
+Actual: Verified that the password is not allowed to be copied and pasted.
+
+TC 12:
+Description: On Logout, Click on back button
+Expected Result: Verify that the user should be redirected to login page.
+Actual: User is directly logged in(Fail)
+
+TC 13:
+Description: Use of keyboard TAB to move the cursor
+Expected Result: Verify that the user should be able to move the cursor and login with keyboard strokes.
+Actual: Verified that the user is able to move the cursor and login with keyboard strokes.

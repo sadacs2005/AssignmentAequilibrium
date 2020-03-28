@@ -86,7 +86,7 @@ public class LoginPageTest extends Base {
     
     //This test is to verify  user is redirected to login page on logout and clicks on browser back button
     @Test
-    public void test10ClickBackBtnOnLogout() {
+    public void test07ClickBackBtnOnLogout() {
         lp.enterUsername(prop.getProperty("UserName"));
         lp.enterPassword(prop.getProperty("Password"));
         lp.clickOnLogin();
