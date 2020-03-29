@@ -66,3 +66,9 @@ TC 13:
 Description: Use of keyboard TAB to move the cursor
 Expected Result: Verify that the user should be able to move the cursor and login with keyboard strokes.
 Actual: Verified that the user is able to move the cursor and login with keyboard strokes.
+
+TC 14:
+Description: Check for XSS issue [Ex: Enter <script> Hello </script> in the Username/Pwd field]
+Expected Result: Verify that the script should not be executed
+Actual: Verified that the script is not be executed
+
